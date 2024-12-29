@@ -4,9 +4,11 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
-bevy = { version = "0.15.0", features = ["dynamic_linking"] }
+bevy = { version = "0.15.0", features = ["dynamic_linking", "file_watcher"] }
 bevy_editor_pls = { git = "https://github.com/jakobhellermann/bevy_editor_pls" }
+leafwing-input-manager = "0.16.0"
 log = { version = "*", features = ["max_level_debug", "release_max_level_warn"] }
+rand = "0.8.5"
 
 [patch.crates-io]
 # Fix after it is merged back
