@@ -1,4 +1,5 @@
 mod game;
+mod inputs;
 mod player;
 
 use bevy::prelude::*;
